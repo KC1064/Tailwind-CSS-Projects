@@ -5,7 +5,7 @@ import Header from "./components/Header"
 function App() {
 
   return (
-    <div className="bg-amber-100 min-h-svh md:flex md:flex-col md:gap-28">
+    <div className="bg-amber-100 min-h-svh md:flex md:flex-col md:gap-16 md:justify-between ">
       <Header/>
       <Body/>
       <Footer/>
