@@ -2,18 +2,18 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-8 py-4">
-      <div>
-        <img src="./images/logo.svg" alt="logo" />
+    <div className="px-3.5 py-3 w-full md:flex md:py-4 md:px-5 md:items-center md:justify-center">
+      <div className="flex justify-between w-[100%]">
+        <img src="./images/logo.svg" alt="logo" className="h-10 w-auto md:h-12" />
+        <div className="hidden md:flex md:items-center md:justify-center md:bg-gray-100 md:rounded-full md:px-2">
+        <a href="" className="hover:bg-white md:rounded-full px-3 py-1.5 font-poppins text-sm">Intro</a>
+        <a href="" className="hover:bg-white md:rounded-full px-4 py-1.5 font-poppins text-sm">Pricing</a>
+        <a href="" className="hover:bg-white md:rounded-full px-2 py-1.5 font-poppins text-sm">Testimonials</a>
+        <a href="" className="hover:bg-white md:rounded-full px-2 py-1.5 font-poppins text-sm">Features</a>
       </div>
-      <div className="items-center justify-center flex rounded-full bg-gray-100 gap-1 px-2 ">
-        <a href="" className="text-sm font-medium inline-flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-white rounded-full py-2 px-4">Intro</a>
-        <a href="" className="text-sm font-medium inline-flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-white rounded-full py-2 px-3">Pricing</a>
-        <a href="" className="text-sm font-medium inline-flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-white rounded-full py-2 px-2">Testimonials</a>
-        <a href="" className="text-sm font-medium inline-flex items-center justify-center text-gray-500 hover:text-gray-900 hover:bg-white rounded-full py-2 px-2">Features</a>
-      </div>
-      <div>
-        <button className="bg-black text-white rounded-full px-6 py-2">Join Community</button>
+        <button className="text-sm bg-black text-white rounded-full font-bold px-3 font-poppins hover:bg-green-500">
+          Join Community
+        </button>
       </div>
     </div>
   );
