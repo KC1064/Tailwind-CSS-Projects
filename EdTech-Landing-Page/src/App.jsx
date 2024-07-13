@@ -8,7 +8,7 @@ import Features from "./components/Features"
 function App() {
 
   return (
-    <div>
+    <div className="px-3 py-4 flex flex-col">
       <Header></Header>
       <Intro></Intro>
       <Testimonials></Testimonials>
