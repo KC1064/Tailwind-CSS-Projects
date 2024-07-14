@@ -8,7 +8,7 @@ import Features from "./components/Features"
 function App() {
 
   return (
-    <div className="px-2.5 py-4 flex flex-col">
+    <div className="px-2.5 py-4 flex flex-col gap-10">
       <Header></Header>
       <Intro></Intro>
       <Testimonials></Testimonials>

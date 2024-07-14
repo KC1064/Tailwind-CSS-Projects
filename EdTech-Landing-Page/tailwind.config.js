@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         spline: "'Spline Sans',sans",
         poppins: "'Poppins',sans",
+        splinemono: "'Spline Sans Mono',sans"
       },
       colors: {
         primary: "#65C51C",
