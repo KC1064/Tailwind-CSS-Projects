@@ -61,12 +61,19 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center hover:rotate-[15deg] duration-100">
         <img src="./images/illustration-job.svg" alt="" />
       </div>
-      <div>
-        
+      <div className="flex justify-center pt-6">
+        <img src="./images/logo.svg" alt="" />
       </div>
+      <div className="flex justify-center gap-6 py-6">
+        <img src="./images/icon-twitter.svg" alt="" className="grayscale  hover:grayscale-0"/>
+        <img src="./images/icon-youtube.svg" alt="" className="grayscale  hover:grayscale-0"/>
+        <img src="./images/icon-linkedin.svg" alt="" className="grayscale  hover:grayscale-0"/>
+        <img src="./images/icon-instagram.svg" alt="" className="grayscale  hover:grayscale-0"/>
+      </div>
+      <p className="text-center pt-2">2023©30DAYSCODING</p>
     </div>
   );
 };
