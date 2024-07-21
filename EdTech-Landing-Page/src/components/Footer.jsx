@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col text-center justify-center align-middle md:flex-row md:align-middle md:justify-between md:px-6 md:pb-4">
-      <div className="flex justify-center pt-6 md:order-1">
+      <div className="flex justify-center md:py-4 md:order-1">
         <img src="./images/logo.svg" alt="" />
       </div>
       <div className="flex justify-center gap-6 py-6 md:order-3">
