@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="flex text-center flex-col gap-12 px-4">
+    <div className="flex text-center flex-col gap-12 px-4 lg:flex-row">
       {/* Tony Stark */}
       <div className="space-y-6 group">
         <div className="flex-col w-full">

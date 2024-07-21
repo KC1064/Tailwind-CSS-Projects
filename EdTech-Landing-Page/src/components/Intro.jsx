@@ -34,7 +34,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-10 mb-6">
+      <div className="flex flex-wrap justify-center items-center gap-10 mb-6 lg:flex-row lg:justify-between lg:px-20">
         <div className="flex gap-2 md:gap-4 items-center">
           <img src="./images/icon-guides.svg" alt="" />
           <h3 className="font-semibold font-spline">5+ Guides free</h3>
