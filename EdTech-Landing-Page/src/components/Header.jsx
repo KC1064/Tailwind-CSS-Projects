@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full px-2 md:flex md:py-4 md:px-5 md:items-center md:justify-center lg:px-6">
+    <div className="w-full px-2 md:flex md:py-4 md:px-5 md:items-center md:justify-center lg:px-6 sticky top-0 bg-white z-50">
       <div className="flex justify-between w-[100%] md:h-auto md:items-center">
         <img
           src="./images/logo.svg"
